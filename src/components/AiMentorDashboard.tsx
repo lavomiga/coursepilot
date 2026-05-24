@@ -128,7 +128,7 @@ export default function AiMentorDashboard({ courses, onAddCourseFromAi }: AiMent
             <div className="w-2.5 h-2.5 rounded-full bg-[#00dce6] ai-pulse-glow"></div>
             <div>
               <h4 className="font-display font-bold text-sm text-white">交互式精英 AI 航向导师</h4>
-              <p className="font-mono text-[9px] text-[#00dce6]">动力源：gemini-3.5-flash-latest</p>
+              <p className="font-mono text-[9px] text-[#00dce6]">动力源：CoursePilot AI Engine</p>
             </div>
           </div>
           <Sparkles className="w-4.5 h-4.5 text-secondary animate-pulse" />
