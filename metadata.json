@@ -1,0 +1,6 @@
+{
+  "name": "CoursePilot",
+  "description": "An AI-powered academic course planner and flight deck for degree tracking and optimization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
