@@ -1,20 +1,85 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# CoursePilot
 
-# Run and deploy your AI Studio app
+AI-powered academic planning system for university students.
 
-This contains everything you need to run your app locally.
+## Introduction
 
-View your app in AI Studio: https://ai.studio/apps/a4c88d8c-ee7e-4933-b9e5-c5c271c68a61
+CoursePilot is an intelligent academic planning platform designed to help university students manage courses, optimize GPA planning, and organize semester schedules more efficiently.
+
+The system provides AI-assisted recommendations and academic analysis to improve learning efficiency and reduce course selection pressure.
+
+---
+
+## Features
+
+- Course recommendation
+- GPA planning
+- Semester scheduling
+- Academic workload analysis
+- AI assistant support
+- Modern responsive interface
+
+---
+
+## Tech Stack
+
+- TypeScript
+- Vite
+- HTML
+- CSS
+- Node.js
+
+---
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+Install dependencies:
 
+```bash
+npm install
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Start development server:
+
+```bash
+npm run dev
+```
+
+Build project:
+
+```bash
+npm run build
+```
+
+---
+
+## Demo
+
+This repository contains:
+
+- Source code
+- Executable demo
+- User manual
+- Project documentation
+
+---
+
+## Project Structure
+
+```bash
+src/          # source code
+assets/       # static assets
+dist/         # production build
+```
+
+---
+
+## Author
+
+Shuxian Zhu
+
+---
+
+## Notes
+
+This project is developed for academic learning and course project demonstration purposes.
