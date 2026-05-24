@@ -10,7 +10,7 @@ const PORT = 3000;
 
 app.use(express.json());
 
-// Lazy-initialized GoogleGenAI client helper
+// AI model client initialization
 let aiClient: GoogleGenAI | null = null;
 
 function getAiClient(): GoogleGenAI {
@@ -23,7 +23,7 @@ function getAiClient(): GoogleGenAI {
       apiKey,
       httpOptions: {
         headers: {
-          'User-Agent': 'aistudio-build',
+          'User-Agent': 'coursepilot-client',
         },
       },
     });
